@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dynamic Pricing and Promotion Simulation
 
 This combines the supplied database, FastAPI backend, and React frontend into one runnable project. The `database/` directory preserves the full PostgreSQL analytical schema and synthetic CSV dataset. The backend runs locally on SQLite by default and uses its own SQLAlchemy prototype schema; these schemas are not interchangeable. Use the CSV loader below for a local demo, or load the original database independently into PostgreSQL using `database/README.md`.
@@ -45,3 +46,6 @@ The provided SQL schema and its CSVs are a separate, richer PostgreSQL analysis 
 - `database/schema/`, `database/sample_data/`: original SQL schema and generated dataset
 
 The demo backend exposes product, inventory, competitor, promotion, pricing, and analytics endpoints. Its pricing engine persists simulation decisions. The independent CSV analysis dataset includes order-level and decision ground truth not yet represented in the backend ORM.
+=======
+# dynamic-pricing-promotion-simulation
+>>>>>>> origin/master

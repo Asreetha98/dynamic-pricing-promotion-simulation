@@ -1,0 +1,2001 @@
+decision_id,issue_type,ground_truth_label,expected_handling
+DEC-2026-000001,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000002,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000003,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000004,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000005,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000006,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000007,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000008,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000009,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000010,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000011,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000012,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000013,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000014,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000015,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000016,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000017,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000018,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000019,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000020,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000021,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000022,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000023,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000024,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000025,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000026,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000027,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000028,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000029,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000030,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000031,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000032,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000033,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000034,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000035,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000036,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000037,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000038,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000039,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000040,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000041,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000042,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000043,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000044,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000045,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000046,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000047,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000048,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000049,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000050,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000051,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000052,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000053,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000054,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000055,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000056,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000057,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000058,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000059,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000060,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000061,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000062,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000063,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000064,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000065,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000066,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000067,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000068,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000069,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000070,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000071,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000072,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000073,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000074,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000075,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000076,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000077,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000078,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000079,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000080,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000081,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000082,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000083,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000084,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000085,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000086,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000087,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000088,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000089,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000090,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000091,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000092,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000093,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000094,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000095,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000096,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000097,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000098,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000099,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000100,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000101,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000102,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000103,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000104,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000105,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000106,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000107,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000108,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000109,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000110,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000111,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000112,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000113,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000114,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000115,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000116,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000117,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000118,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000119,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000120,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000121,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000122,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000123,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000124,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000125,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000126,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000127,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000128,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000129,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000130,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000131,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000132,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000133,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000134,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000135,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000136,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000137,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000138,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000139,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000140,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000141,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000142,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000143,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000144,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000145,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000146,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000147,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000148,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000149,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000150,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000151,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000152,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000153,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000154,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000155,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000156,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000157,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000158,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000159,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000160,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000161,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000162,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000163,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000164,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000165,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000166,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000167,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000168,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000169,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000170,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000171,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000172,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000173,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000174,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000175,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000176,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000177,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000178,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000179,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000180,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000181,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000182,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000183,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000184,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000185,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000186,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000187,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000188,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000189,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000190,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000191,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000192,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000193,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000194,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000195,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000196,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000197,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000198,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000199,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000200,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000201,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000202,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000203,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000204,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000205,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000206,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000207,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000208,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000209,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000210,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000211,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000212,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000213,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000214,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000215,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000216,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000217,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000218,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000219,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000220,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000221,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000222,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000223,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000224,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000225,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000226,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000227,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000228,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000229,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000230,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000231,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000232,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000233,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000234,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000235,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000236,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000237,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000238,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000239,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000240,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000241,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000242,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000243,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000244,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000245,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000246,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000247,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000248,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000249,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000250,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000251,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000252,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000253,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000254,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000255,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000256,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000257,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000258,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000259,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000260,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000261,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000262,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000263,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000264,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000265,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000266,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000267,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000268,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000269,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000270,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000271,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000272,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000273,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000274,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000275,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000276,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000277,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000278,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000279,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000280,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000281,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000282,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000283,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000284,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000285,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000286,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000287,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000288,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000289,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000290,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000291,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000292,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000293,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000294,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000295,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000296,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000297,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000298,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000299,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000300,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000301,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000302,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000303,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000304,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000305,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000306,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000307,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000308,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000309,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000310,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000311,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000312,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000313,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000314,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000315,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000316,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000317,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000318,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000319,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000320,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000321,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000322,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000323,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000324,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000325,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000326,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000327,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000328,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000329,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000330,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000331,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000332,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000333,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000334,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000335,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000336,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000337,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000338,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000339,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000340,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000341,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000342,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000343,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000344,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000345,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000346,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000347,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000348,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000349,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000350,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000351,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000352,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000353,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000354,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000355,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000356,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000357,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000358,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000359,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000360,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000361,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000362,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000363,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000364,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000365,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000366,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000367,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000368,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000369,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000370,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000371,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000372,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000373,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000374,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000375,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000376,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000377,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000378,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000379,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000380,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000381,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000382,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000383,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000384,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000385,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000386,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000387,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000388,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000389,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000390,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000391,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000392,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000393,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000394,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000395,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000396,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000397,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000398,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000399,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000400,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000401,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000402,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000403,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000404,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000405,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000406,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000407,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000408,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000409,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000410,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000411,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000412,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000413,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000414,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000415,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000416,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000417,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000418,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000419,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000420,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000421,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000422,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000423,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000424,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000425,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000426,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000427,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000428,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000429,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000430,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000431,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000432,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000433,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000434,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000435,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000436,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000437,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000438,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000439,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000440,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000441,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000442,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000443,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000444,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000445,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000446,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000447,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000448,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000449,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000450,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000451,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000452,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000453,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000454,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000455,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000456,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000457,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000458,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000459,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000460,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000461,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000462,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000463,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000464,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000465,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000466,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000467,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000468,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000469,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000470,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000471,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000472,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000473,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000474,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000475,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000476,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000477,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000478,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000479,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000480,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000481,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000482,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000483,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000484,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000485,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000486,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000487,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000488,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000489,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000490,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000491,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000492,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000493,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000494,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000495,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000496,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000497,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000498,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000499,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000500,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000501,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000502,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000503,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000504,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000505,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000506,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000507,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000508,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000509,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000510,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000511,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000512,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000513,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000514,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000515,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000516,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000517,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000518,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000519,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000520,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000521,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000522,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000523,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000524,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000525,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000526,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000527,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000528,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000529,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000530,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000531,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000532,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000533,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000534,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000535,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000536,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000537,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000538,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000539,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000540,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000541,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000542,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000543,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000544,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000545,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000546,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000547,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000548,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000549,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000550,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000551,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000552,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000553,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000554,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000555,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000556,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000557,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000558,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000559,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000560,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000561,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000562,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000563,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000564,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000565,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000566,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000567,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000568,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000569,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000570,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000571,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000572,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000573,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000574,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000575,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000576,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000577,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000578,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000579,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000580,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000581,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000582,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000583,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000584,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000585,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000586,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000587,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000588,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000589,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000590,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000591,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000592,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000593,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000594,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000595,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000596,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000597,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000598,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000599,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000600,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000601,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000602,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000603,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000604,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000605,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000606,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000607,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000608,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000609,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000610,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000611,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000612,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000613,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000614,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000615,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000616,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000617,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000618,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000619,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000620,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000621,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000622,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000623,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000624,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000625,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000626,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000627,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000628,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000629,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000630,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000631,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000632,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000633,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000634,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000635,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000636,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000637,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000638,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000639,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000640,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000641,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000642,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000643,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000644,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000645,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000646,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000647,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000648,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000649,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000650,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000651,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000652,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000653,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000654,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000655,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000656,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000657,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000658,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000659,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000660,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000661,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000662,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000663,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000664,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000665,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000666,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000667,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000668,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000669,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000670,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000671,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000672,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000673,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000674,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000675,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000676,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000677,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000678,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000679,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000680,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000681,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000682,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000683,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000684,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000685,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000686,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000687,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000688,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000689,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000690,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000691,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000692,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000693,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000694,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000695,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000696,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000697,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000698,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000699,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000700,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000701,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000702,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000703,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000704,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000705,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000706,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000707,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000708,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000709,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000710,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000711,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000712,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000713,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000714,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000715,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000716,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000717,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000718,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000719,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000720,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000721,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000722,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000723,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000724,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000725,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000726,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000727,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000728,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000729,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000730,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000731,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000732,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000733,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000734,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000735,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000736,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000737,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000738,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000739,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000740,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000741,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000742,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000743,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000744,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000745,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000746,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000747,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000748,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000749,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000750,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000751,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000752,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000753,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000754,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000755,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000756,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000757,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000758,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000759,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000760,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000761,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000762,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000763,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000764,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000765,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000766,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000767,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000768,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000769,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000770,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000771,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000772,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000773,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000774,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000775,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000776,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000777,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000778,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000779,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000780,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000781,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000782,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000783,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000784,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000785,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000786,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000787,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000788,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000789,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000790,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000791,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000792,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000793,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000794,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000795,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000796,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000797,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000798,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000799,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000800,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000801,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000802,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000803,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000804,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000805,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000806,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000807,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000808,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000809,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000810,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000811,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000812,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000813,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000814,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000815,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000816,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000817,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000818,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000819,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000820,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000821,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000822,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000823,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000824,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000825,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000826,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000827,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000828,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000829,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000830,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000831,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000832,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000833,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000834,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000835,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000836,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000837,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000838,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000839,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000840,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000841,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000842,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000843,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000844,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000845,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000846,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000847,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000848,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000849,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000850,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000851,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000852,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000853,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000854,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000855,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000856,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000857,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000858,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000859,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000860,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000861,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000862,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000863,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000864,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000865,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000866,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000867,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000868,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000869,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000870,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000871,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000872,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000873,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000874,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000875,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000876,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000877,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000878,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000879,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000880,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000881,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000882,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000883,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000884,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000885,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000886,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000887,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000888,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000889,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000890,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000891,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000892,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000893,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000894,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000895,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000896,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000897,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000898,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000899,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000900,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000901,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000902,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000903,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000904,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000905,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000906,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000907,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000908,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000909,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000910,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000911,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000912,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000913,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000914,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000915,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000916,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000917,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000918,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000919,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000920,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000921,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000922,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000923,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000924,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000925,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000926,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000927,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000928,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000929,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000930,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000931,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000932,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000933,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000934,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000935,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000936,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000937,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000938,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000939,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000940,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000941,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000942,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000943,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000944,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000945,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000946,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000947,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000948,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000949,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000950,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000951,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000952,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000953,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000954,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000955,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000956,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000957,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000958,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000959,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000960,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000961,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000962,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000963,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000964,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000965,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000966,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000967,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000968,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000969,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000970,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000971,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000972,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000973,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000974,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000975,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-000976,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000977,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000978,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000979,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000980,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000981,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000982,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000983,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000984,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000985,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000986,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000987,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000988,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000989,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000990,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000991,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000992,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-000993,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000994,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000995,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-000996,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-000997,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-000998,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-000999,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001000,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001001,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001002,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001003,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001004,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001005,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001006,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001007,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001008,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001009,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001010,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001011,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001012,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001013,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001014,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001015,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001016,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001017,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001018,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001019,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001020,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001021,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001022,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001023,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001024,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001025,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001026,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001027,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001028,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001029,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001030,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001031,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001032,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001033,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001034,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001035,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001036,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001037,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001038,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001039,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001040,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001041,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001042,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001043,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001044,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001045,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001046,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001047,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001048,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001049,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001050,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001051,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001052,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001053,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001054,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001055,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001056,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001057,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001058,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001059,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001060,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001061,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001062,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001063,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001064,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001065,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001066,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001067,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001068,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001069,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001070,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001071,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001072,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001073,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001074,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001075,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001076,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001077,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001078,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001079,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001080,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001081,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001082,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001083,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001084,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001085,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001086,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001087,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001088,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001089,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001090,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001091,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001092,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001093,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001094,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001095,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001096,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001097,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001098,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001099,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001100,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001101,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001102,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001103,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001104,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001105,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001106,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001107,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001108,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001109,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001110,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001111,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001112,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001113,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001114,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001115,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001116,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001117,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001118,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001119,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001120,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001121,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001122,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001123,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001124,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001125,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001126,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001127,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001128,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001129,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001130,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001131,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001132,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001133,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001134,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001135,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001136,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001137,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001138,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001139,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001140,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001141,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001142,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001143,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001144,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001145,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001146,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001147,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001148,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001149,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001150,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001151,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001152,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001153,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001154,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001155,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001156,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001157,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001158,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001159,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001160,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001161,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001162,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001163,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001164,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001165,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001166,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001167,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001168,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001169,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001170,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001171,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001172,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001173,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001174,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001175,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001176,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001177,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001178,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001179,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001180,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001181,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001182,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001183,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001184,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001185,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001186,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001187,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001188,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001189,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001190,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001191,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001192,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001193,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001194,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001195,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001196,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001197,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001198,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001199,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001200,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001201,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001202,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001203,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001204,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001205,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001206,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001207,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001208,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001209,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001210,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001211,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001212,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001213,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001214,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001215,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001216,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001217,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001218,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001219,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001220,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001221,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001222,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001223,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001224,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001225,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001226,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001227,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001228,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001229,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001230,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001231,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001232,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001233,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001234,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001235,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001236,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001237,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001238,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001239,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001240,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001241,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001242,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001243,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001244,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001245,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001246,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001247,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001248,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001249,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001250,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001251,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001252,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001253,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001254,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001255,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001256,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001257,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001258,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001259,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001260,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001261,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001262,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001263,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001264,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001265,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001266,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001267,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001268,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001269,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001270,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001271,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001272,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001273,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001274,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001275,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001276,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001277,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001278,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001279,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001280,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001281,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001282,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001283,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001284,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001285,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001286,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001287,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001288,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001289,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001290,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001291,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001292,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001293,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001294,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001295,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001296,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001297,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001298,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001299,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001300,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001301,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001302,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001303,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001304,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001305,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001306,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001307,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001308,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001309,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001310,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001311,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001312,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001313,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001314,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001315,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001316,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001317,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001318,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001319,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001320,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001321,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001322,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001323,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001324,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001325,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001326,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001327,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001328,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001329,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001330,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001331,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001332,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001333,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001334,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001335,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001336,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001337,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001338,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001339,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001340,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001341,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001342,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001343,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001344,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001345,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001346,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001347,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001348,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001349,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001350,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001351,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001352,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001353,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001354,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001355,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001356,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001357,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001358,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001359,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001360,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001361,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001362,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001363,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001364,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001365,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001366,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001367,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001368,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001369,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001370,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001371,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001372,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001373,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001374,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001375,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001376,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001377,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001378,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001379,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001380,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001381,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001382,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001383,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001384,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001385,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001386,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001387,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001388,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001389,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001390,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001391,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001392,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001393,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001394,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001395,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001396,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001397,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001398,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001399,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001400,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001401,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001402,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001403,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001404,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001405,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001406,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001407,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001408,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001409,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001410,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001411,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001412,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001413,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001414,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001415,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001416,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001417,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001418,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001419,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001420,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001421,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001422,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001423,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001424,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001425,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001426,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001427,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001428,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001429,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001430,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001431,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001432,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001433,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001434,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001435,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001436,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001437,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001438,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001439,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001440,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001441,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001442,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001443,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001444,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001445,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001446,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001447,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001448,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001449,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001450,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001451,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001452,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001453,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001454,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001455,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001456,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001457,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001458,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001459,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001460,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001461,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001462,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001463,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001464,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001465,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001466,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001467,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001468,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001469,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001470,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001471,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001472,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001473,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001474,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001475,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001476,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001477,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001478,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001479,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001480,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001481,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001482,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001483,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001484,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001485,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001486,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001487,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001488,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001489,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001490,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001491,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001492,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001493,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001494,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001495,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001496,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001497,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001498,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001499,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001500,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001501,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001502,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001503,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001504,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001505,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001506,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001507,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001508,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001509,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001510,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001511,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001512,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001513,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001514,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001515,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001516,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001517,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001518,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001519,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001520,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001521,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001522,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001523,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001524,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001525,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001526,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001527,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001528,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001529,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001530,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001531,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001532,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001533,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001534,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001535,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001536,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001537,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001538,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001539,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001540,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001541,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001542,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001543,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001544,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001545,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001546,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001547,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001548,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001549,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001550,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001551,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001552,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001553,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001554,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001555,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001556,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001557,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001558,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001559,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001560,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001561,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001562,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001563,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001564,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001565,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001566,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001567,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001568,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001569,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001570,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001571,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001572,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001573,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001574,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001575,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001576,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001577,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001578,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001579,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001580,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001581,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001582,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001583,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001584,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001585,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001586,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001587,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001588,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001589,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001590,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001591,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001592,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001593,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001594,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001595,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001596,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001597,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001598,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001599,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001600,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001601,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001602,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001603,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001604,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001605,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001606,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001607,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001608,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001609,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001610,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001611,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001612,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001613,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001614,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001615,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001616,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001617,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001618,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001619,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001620,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001621,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001622,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001623,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001624,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001625,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001626,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001627,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001628,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001629,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001630,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001631,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001632,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001633,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001634,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001635,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001636,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001637,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001638,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001639,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001640,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001641,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001642,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001643,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001644,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001645,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001646,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001647,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001648,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001649,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001650,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001651,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001652,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001653,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001654,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001655,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001656,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001657,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001658,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001659,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001660,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001661,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001662,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001663,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001664,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001665,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001666,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001667,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001668,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001669,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001670,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001671,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001672,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001673,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001674,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001675,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001676,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001677,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001678,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001679,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001680,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001681,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001682,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001683,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001684,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001685,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001686,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001687,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001688,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001689,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001690,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001691,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001692,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001693,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001694,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001695,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001696,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001697,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001698,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001699,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001700,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001701,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001702,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001703,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001704,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001705,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001706,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001707,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001708,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001709,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001710,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001711,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001712,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001713,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001714,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001715,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001716,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001717,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001718,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001719,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001720,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001721,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001722,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001723,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001724,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001725,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001726,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001727,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001728,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001729,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001730,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001731,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001732,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001733,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001734,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001735,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001736,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001737,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001738,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001739,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001740,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001741,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001742,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001743,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001744,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001745,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001746,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001747,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001748,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001749,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001750,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001751,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001752,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001753,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001754,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001755,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001756,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001757,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001758,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001759,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001760,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001761,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001762,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001763,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001764,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001765,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001766,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001767,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001768,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001769,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001770,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001771,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001772,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001773,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001774,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001775,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001776,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001777,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001778,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001779,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001780,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001781,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001782,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001783,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001784,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001785,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001786,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001787,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001788,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001789,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001790,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001791,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001792,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001793,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001794,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001795,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001796,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001797,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001798,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001799,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001800,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001801,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001802,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001803,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001804,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001805,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001806,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001807,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001808,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001809,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001810,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001811,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001812,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001813,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001814,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001815,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001816,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001817,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001818,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001819,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001820,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001821,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001822,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001823,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001824,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001825,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001826,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001827,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001828,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001829,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001830,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001831,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001832,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001833,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001834,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001835,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001836,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001837,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001838,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001839,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001840,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001841,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001842,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001843,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001844,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001845,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001846,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001847,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001848,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001849,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001850,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001851,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001852,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001853,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001854,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001855,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001856,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001857,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001858,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001859,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001860,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001861,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001862,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001863,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001864,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001865,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001866,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001867,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001868,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001869,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001870,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001871,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001872,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001873,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001874,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001875,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001876,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001877,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001878,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001879,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001880,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001881,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001882,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001883,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001884,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001885,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001886,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001887,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001888,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001889,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001890,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001891,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001892,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001893,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001894,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001895,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001896,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001897,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001898,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001899,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001900,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001901,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001902,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001903,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001904,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001905,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001906,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001907,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001908,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001909,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001910,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001911,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001912,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001913,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001914,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001915,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001916,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001917,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001918,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001919,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001920,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001921,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001922,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001923,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001924,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001925,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001926,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001927,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001928,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001929,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001930,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001931,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001932,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001933,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001934,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001935,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001936,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001937,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001938,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001939,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001940,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001941,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001942,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001943,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001944,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001945,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001946,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001947,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001948,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001949,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-001950,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001951,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001952,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001953,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001954,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001955,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001956,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001957,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001958,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001959,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001960,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001961,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001962,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001963,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001964,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001965,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001966,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001967,PROMOTION_STACK_VIOLATION,ANOMALY,Reject incompatible stack and recalculate discount
+DEC-2026-001968,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001969,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001970,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001971,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001972,PRICE_BELOW_FLOOR,ANOMALY,Block decision; enforce product price floor
+DEC-2026-001973,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001974,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001975,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001976,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001977,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001978,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001979,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001980,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001981,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001982,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001983,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001984,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001985,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001986,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001987,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001988,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001989,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001990,STALE_COMPETITOR_USED,ANOMALY,Flag stale observation; exclude from current competitor signal
+DEC-2026-001991,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001992,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001993,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001994,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001995,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001996,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001997,NONE,VALID,Accept if all configured guardrails pass
+DEC-2026-001998,MISSING_CHANGE_REASON,ANOMALY,Require a documented reason before applying price
+DEC-2026-001999,MARGIN_BEFORE_DISCOUNT,ANOMALY,Recalculate margin after all discounts
+DEC-2026-002000,NONE,VALID,Accept if all configured guardrails pass

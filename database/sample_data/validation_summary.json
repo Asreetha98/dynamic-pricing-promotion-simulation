@@ -1,0 +1,35 @@
+{
+  "seed": 20261022,
+  "pricing_decision_scenarios": 2000,
+  "promotions": 2000,
+  "products": 200,
+  "inventory_snapshots": 36000,
+  "total_rows_across_operational_csvs": 43700,
+  "issue_distribution": {
+    "NONE": 1404,
+    "PRICE_BELOW_FLOOR": 120,
+    "PROMOTION_STACK_VIOLATION": 108,
+    "STALE_COMPETITOR_USED": 145,
+    "MARGIN_BEFORE_DISCOUNT": 104,
+    "MISSING_CHANGE_REASON": 119
+  },
+  "csv_row_counts": {
+    "products.csv": 200,
+    "cost_records.csv": 200,
+    "price_history.csv": 200,
+    "inventory_snapshots.csv": 36000,
+    "competitor_observations.csv": 200,
+    "promotions.csv": 2000,
+    "promotion_rules.csv": 2000,
+    "pricing_decisions.csv": 2000,
+    "decision_promotions.csv": 500,
+    "orders.csv": 200,
+    "order_items.csv": 200
+  },
+  "notes": [
+    "2000 pricing decision scenarios are generated deterministically.",
+    "Operational CSVs exclude ground_truth.csv.",
+    "Ground truth is stored separately for evaluation.",
+    "All records are synthetic; example.invalid is a reserved placeholder domain."
+  ]
+}

@@ -1,0 +1,3 @@
+export default function StatCard({label,value,change,icon:Icon,tone="blue",note}) {
+  return <section className="stat-card"><div className="stat-top"><span>{label}</span><div className={`stat-icon ${tone}`}>{Icon&&<Icon size={19}/>}</div></div><div className="stat-value">{value}</div><div className="stat-bottom">{change&&<span className={change.startsWith("-")?"negative":"positive"}>{change}</span>}<span>{note}</span></div></section>;
+}

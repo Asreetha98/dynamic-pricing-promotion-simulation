@@ -1,0 +1,41 @@
+{
+  "info": {
+    "name": "Dynamic Pricing and Promotion Simulation API",
+    "description": "POST-first collection for creating project records, then retrieving and updating them.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {"key": "baseUrl", "value": "http://127.0.0.1:8000/api"},
+    {"key": "productId", "value": "SKU-000001"},
+    {"key": "promotionId", "value": "PROMO-2026-000001"}
+  ],
+  "item": [
+    {"name": "Products", "item": [
+      {"name": "Create product (POST)", "request": {"method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "body": {"mode":"raw","raw":"{\n  \"id\": \"{{productId}}\", \"name\": \"Demo Laptop\", \"category\": \"Electronics\", \"brand\": \"Demo\", \"unit\": \"each\", \"min_price\": 500, \"max_price\": 2000, \"min_margin_pct\": 15, \"is_active\": true\n}"}, "url": "{{baseUrl}}/products/"}},
+      {"name": "List products (GET)", "request": {"method":"GET","url":"{{baseUrl}}/products/"}},
+      {"name": "Update product (PATCH)", "request": {"method":"PATCH","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\n  \"id\": \"{{productId}}\", \"name\": \"Demo Laptop Updated\", \"category\": \"Electronics\", \"brand\": \"Demo\", \"unit\": \"each\", \"min_price\": 500, \"max_price\": 2200, \"min_margin_pct\": 15, \"is_active\": true\n}"},"url":"{{baseUrl}}/products/{{productId}}"}}
+    ]},
+    {"name":"Cost and Price History", "item":[
+      {"name":"Create cost (POST)","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\n  \"product_id\": \"{{productId}}\", \"unit_cost\": 420, \"effective_from\": \"2026-11-01\", \"effective_to\": null\n}"},"url":"{{baseUrl}}/costs/"}},
+      {"name":"Create price history (POST)","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\n  \"product_id\": \"{{productId}}\", \"selling_price\": 899, \"effective_from\": \"2026-11-01\", \"reason\": \"Initial selling price\"\n}"},"url":"{{baseUrl}}/price-history/"}},
+      {"name":"List price history (GET)","request":{"method":"GET","url":"{{baseUrl}}/price-history/?product_id={{productId}}"}}
+    ]},
+    {"name":"Inventory and Competitors", "item":[
+      {"name":"Create inventory snapshot (POST)","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\n  \"product_id\": \"{{productId}}\", \"quantity_on_hand\": 120, \"quantity_reserved\": 8\n}"},"url":"{{baseUrl}}/inventory/"}},
+      {"name":"List inventory (GET)","request":{"method":"GET","url":"{{baseUrl}}/inventory/?product_id={{productId}}"}},
+      {"name":"Create competitor observation (POST)","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\n  \"product_id\": \"{{productId}}\", \"competitor_name\": \"Competitor A\", \"observed_price\": 875, \"source_url\": \"https://example.com/product\", \"source_timestamp\": \"2026-11-13T10:00:00Z\"\n}"},"url":"{{baseUrl}}/competitors/"}},
+      {"name":"List competitor observations (GET)","request":{"method":"GET","url":"{{baseUrl}}/competitors/?product_id={{productId}}"}}
+    ]},
+    {"name":"Promotions", "item":[
+      {"name":"Create promotion (POST)","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\n  \"id\": \"{{promotionId}}\", \"name\": \"Festival Offer\", \"discount_type\": \"PERCENT\", \"discount_value\": 10, \"starts_at\": \"2026-11-13T00:00:00Z\", \"ends_at\": \"2026-11-30T23:59:00Z\", \"is_active\": true\n}"},"url":"{{baseUrl}}/promotions/"}},
+      {"name":"Add promotion rule (POST)","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\n  \"id\": \"RULE-2026-000001\", \"rule_type\": \"MIN_ORDER\", \"rule_value\": \"500\", \"is_active\": true\n}"},"url":"{{baseUrl}}/promotions/{{promotionId}}/rules"}},
+      {"name":"List promotions (GET)","request":{"method":"GET","url":"{{baseUrl}}/promotions/"}}
+    ]},
+    {"name":"Orders and Pricing", "item":[
+      {"name":"Create order (POST)","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\n  \"product_id\": \"{{productId}}\", \"quantity\": 2, \"unit_price\": 899, \"discount_amount\": 50\n}"},"url":"{{baseUrl}}/orders/"}},
+      {"name":"Simulate price (POST)","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":"{\n  \"product_id\": \"{{productId}}\", \"demand_index\": 1.2, \"competitor_price\": 875, \"competitor_age_hours\": 2, \"apply_promotion_id\": null\n}"},"url":"{{baseUrl}}/pricing/simulate"}},
+      {"name":"Pricing decision history (GET)","request":{"method":"GET","url":"{{baseUrl}}/analytics/decisions"}},
+      {"name":"Reports summary (GET)","request":{"method":"GET","url":"{{baseUrl}}/analytics/summary"}}
+    ]}
+  ]
+}

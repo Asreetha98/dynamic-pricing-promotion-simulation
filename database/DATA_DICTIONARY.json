@@ -1,0 +1,74 @@
+{
+  "products": {
+    "product_id": "VARCHAR(20), required PK",
+    "sku": "VARCHAR(20), required unique; SKU-000001",
+    "base_price": "NUMERIC(12,2), INR, >0",
+    "price_floor": "NUMERIC(12,2), INR, >0 and <= base_price",
+    "price_ceiling": "NUMERIC(12,2), INR, >= base_price",
+    "min_margin_pct": "NUMERIC(5,2), 0-95"
+  },
+  "cost_records": {
+    "cost_id": "VARCHAR(60), required PK; COST-<sku>-2026-01",
+    "product_id": "FK products",
+    "unit_cost": "NUMERIC(12,2), INR, >0",
+    "effective_from/effective_to": "DATE, effective_to nullable and >= effective_from"
+  },
+  "price_history": {
+    "price_history_id": "VARCHAR(70), required PK; PRC-<sku>-YYYYMMDD",
+    "product_id": "FK products",
+    "selling_price": "NUMERIC(12,2), INR, >0",
+    "valid_from/valid_to": "TIMESTAMP, valid_to nullable and >= valid_from",
+    "decision_id": "nullable FK pricing_decisions"
+  },
+  "inventory_snapshots": {
+    "inventory_snapshot_id": "VARCHAR(70), PK",
+    "product_id": "FK products",
+    "on_hand_qty/reserved_qty/available_qty": "INTEGER, non-negative; available = max(on_hand-reserved,0)",
+    "snapshot_date": "DATE; unique per product/date",
+    "stock_status": "IN_STOCK, LOW_STOCK, OUT_OF_STOCK"
+  },
+  "competitor_observations": {
+    "observation_id": "VARCHAR(70), PK",
+    "product_id": "FK products",
+    "competitor_price": "NUMERIC(12,2), INR, >0",
+    "observed_at/received_at": "TIMESTAMP; received_at >= observed_at",
+    "source_status": "VALID, STALE, UNVERIFIED"
+  },
+  "promotions": {
+    "promotion_id": "VARCHAR(30), PK; PROMO-2026-000001",
+    "promotion_type": "PERCENT, FIXED, COUPON",
+    "discount_value": "NUMERIC(10,2), >0; percentage <=100",
+    "start_date/end_date": "DATE; end_date >= start_date",
+    "status": "DRAFT, SCHEDULED, ACTIVE, EXPIRED, CANCELLED"
+  },
+  "promotion_rules": {
+    "rule_id": "VARCHAR(40), PK",
+    "promotion_id": "FK promotions",
+    "rule_type": "MIN_CART_VALUE, CATEGORY_IN, CATEGORY_EXCLUDE, STACK_EXCLUDE, MIN_MARGIN, MAX_DISCOUNT",
+    "rule_value": "TEXT, interpreted by rule_type"
+  },
+  "orders": {
+    "order_id": "VARCHAR(30), PK",
+    "order_status": "PLACED, PAID, SHIPPED, CANCELLED, RETURNED",
+    "subtotal/discount_total/grand_total": "NUMERIC(12,2), INR; grand_total = max(subtotal-discount_total,0)"
+  },
+  "order_items": {
+    "order_item_id": "VARCHAR(40), PK",
+    "order_id": "FK orders",
+    "product_id": "FK products",
+    "quantity": "INTEGER >0",
+    "unit_price/line_discount/line_total": "NUMERIC(12,2); line_total = max(qty*unit_price-discount,0)"
+  },
+  "pricing_decisions": {
+    "decision_id": "VARCHAR(30), PK; DEC-2026-000001",
+    "product_id": "FK products",
+    "competitor_observation_id": "nullable FK competitor_observations",
+    "decision_status": "APPROVED, BLOCKED, REVIEW, APPLIED",
+    "issue_type": "NONE or one of five injected anomaly types",
+    "ground_truth_label": "VALID or ANOMALY"
+  },
+  "decision_promotions": {
+    "decision_id/promotion_id": "Composite PK; FKs to pricing_decisions and promotions",
+    "application_status": "APPLIED, REJECTED, EVALUATED"
+  }
+}

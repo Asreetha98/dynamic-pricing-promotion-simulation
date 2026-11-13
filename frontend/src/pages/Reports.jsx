@@ -1,0 +1,16 @@
+import {useEffect,useState} from "react";
+import {Download,FileBarChart,AlertTriangle} from "lucide-react";
+import {BarChart,Bar,ResponsiveContainer,XAxis,YAxis,Tooltip,CartesianGrid} from "recharts";
+import {getAnalytics,getDecisions,getInventory} from "../services/api";
+const data=[{category:"Electronics",margin:29},{category:"Fashion",margin:24},{category:"Home",margin:27},{category:"Grocery",margin:18},{category:"Beauty",margin:31}];
+export default function Reports(){
+ const [stats,setStats]=useState({});const [decisions,setDecisions]=useState([]);const [inventory,setInventory]=useState([]);
+ useEffect(()=>{getAnalytics().then(setStats);getDecisions().then(setDecisions);getInventory().then(setInventory)},[]);
+ const blocked=decisions.filter(x=>x.status==="Blocked").length;const exceptions=inventory.filter(x=>x.stock_status!=="Healthy").length;
+ return <div className="page"><div className="page-heading"><div><div className="eyebrow">PERFORMANCE & GOVERNANCE</div><h1>Reports</h1><p>Evaluate pricing outcomes, margin performance and operational exceptions.</p></div><button className="secondary-btn" onClick={()=>window.print()}><Download size={16}/> Export report</button></div>
+ <div className="stat-grid three"><div className="stat-card"><div className="stat-top"><span>Pricing decisions</span><FileBarChart size={18}/></div><div className="stat-value">{stats.pricing_decisions||decisions.length}</div><div className="stat-bottom">Recorded recommendations</div></div><div className="stat-card"><div className="stat-top"><span>Blocked decisions</span><AlertTriangle size={18}/></div><div className="stat-value">{blocked}</div><div className="stat-bottom">Require review</div></div><div className="stat-card"><div className="stat-top"><span>Inventory exceptions</span><AlertTriangle size={18}/></div><div className="stat-value">{exceptions}</div><div className="stat-bottom">Low stock or stockout</div></div></div>
+ <div className="dashboard-grid"><section className="panel"><div className="panel-heading"><div><h2>Margin by category</h2><p>Illustrative category-level margin view</p></div></div><div className="chart-area"><ResponsiveContainer width="100%" height="100%"><BarChart data={data}><CartesianGrid strokeDasharray="3 3" vertical={false}/><XAxis dataKey="category" axisLine={false} tickLine={false}/><YAxis unit="%" axisLine={false} tickLine={false}/><Tooltip/><Bar dataKey="margin" fill="#5278ee" radius={[5,5,0,0]}/></BarChart></ResponsiveContainer></div></section>
+ <section className="panel"><div className="panel-heading"><div><h2>Governance checklist</h2><p>Key controls for trustworthy pricing</p></div></div><div className="report-checks"><p><span className="check-pass">✓</span> Price floor and ceiling validation</p><p><span className="check-pass">✓</span> Margin calculated after discount</p><p><span className="check-pass">✓</span> Competitor source timestamp retained</p><p><span className="check-pass">✓</span> Decision reason recorded</p><p><span className="check-pass">✓</span> Ground-truth labels kept separate</p></div></section></div>
+ <p className="footnote">Note: category chart is illustrative starter data. Replace with backend analytics aggregates before using reports as business results.</p>
+ </div>;
+}
